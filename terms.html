@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Terms & Conditions - Eternal TV</title>
+  <style>
+    :root {
+      --bg-color: #212341;
+      --text-color: #ffffff;
+      --accent-color: #4ad295;
+      --card-bg: #2d2f4d;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg-color);
+      margin: 0;
+      padding: 0;
+      color: var(--text-color);
+    }
+    .content {
+      max-width: 900px;
+      margin: 120px auto 2rem auto;
+      background: var(--card-bg);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    h1, h2, h3 {
+      color: var(--accent-color);
+    }
+    h2 {
+      margin-top: 1.5rem;
+      font-size: 1.4rem;
+    }
+    p, ul {
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    
+.site-footer {
+  background: #181b2e;
+  color: #ccc;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+  gap: 2rem;
+}
+.footer-section {
+  flex: 1 1 200px;
+}
+.footer-section h4 {
+  color: #4ad295;
+  margin-bottom: 0.5rem;
+}
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+}
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  color: #ccc;
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.back-to-top {
+  color: #4ad295;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+.back-to-top:hover {
+  text-decoration: underline;
+}
+
+    .navbar {
+      background-color: #212341;
+      box-shadow: 0 4px 8px rgba(229, 227, 227, 0.2);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar-brand {
+      color: red !important;
+      font-weight: bold;
+      font-size: 1.7rem;
+    }
+
+    .navbar-nav {
+      margin: 0 auto;
+      gap: 25px;
+    }
+
+    .nav-link {
+      color: #fff !important;
+      font-size: 1.2rem;
+      font-weight: 600;
+      position: relative;
+    }
+
+    .nav-link:hover::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: red;
+      bottom: -5px;
+      left: 0;
+    }
+
+    .nav-link:hover, .nav-link:focus {
+      color: red !important;
+    }
+
+    .dropdown-menu {
+      background-color: #111;
+      border: none;
+    }
+
+    .dropdown-item {
+      color: #fff;
+    }
+
+    .dropdown-item:hover {
+      background-color: red;
+      color: #fff;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 1.2rem;
+    }
+ .social-icons a:hover {
+      color: red;
+    }
+
+    .hero-section {
+  padding-top: 180px; /* يعوض ارتفاع top bar + navbar */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-section {
+    width: 100%;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+  }
+}
+
+  .back-to-top {
+    cursor: pointer;
+    color: #4ad295;
+  }
+  .back-to-top:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+  /* Hide social icons on small devices */
+  .navbar .d-flex.gap-3 {
+    display: none !important;
+  }
+
+  /* Center the nav links */
+  .navbar-nav {
+    margin: 0 auto !important;
+    justify-content: center;
+  }
+
+  /* Make sure nav items take up minimal width and align center */
+  .navbar-nav .nav-item {
+    text-align: center;
+  }
+}
+
+
+  @media (max-width: 600px) {
+    .footer-bottom {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  </style>
+</head>
+<body>
+    
+<!-- Top bar -->
+<div style="background: red; color: black; text-align: center; font-style: italic; padding: 5px 0; font-size: 0.9rem;">
+  Best IPTV Provider in France
+</div>
+
+
+<!-- Your navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top" >
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="index.html" style="margin-left: 50px;">eternalTV</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Subscriptions</a></li>
+        <li class="nav-item"><a class="nav-link" href="Channels.html" target="_blank">Channel List</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Contact</a></li>
+      </ul>
+      <div class="d-flex gap-3" style="margin-right: 50px;">
+        <a href="#" class="text-light"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-telegram"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="content">
+  <h1>Terms & Conditions</h1>
+  <p><strong>Last updated:</strong> February 2025</p>
+
+  <p>Welcome to eternaltv.space ("Company", "we", "our", "us")! These Terms of Service ("Terms", "Terms of Service") govern your use of our website located at https://eternaltv.space (together or individually "Service") operated by eternaltv.</p>
+
+  <p>Our Privacy Policy also governs your use of our Service and explains how we collect, safeguard, and disclose information that results from your use of our web pages. Please read it here: <a href="privacy.html" target="_blank">Privacy Policy</a>.</p>
+
+  <p>Your agreement with us includes these Terms and our Privacy Policy ("Agreements"). You acknowledge that you have read and understood Agreements, and agree to be bound by them.</p>
+
+  <p>If you do not agree with (or cannot comply with) Agreements, then you may not use the Service. These Terms apply to all visitors, users, and others who wish to access or use Service.</p>
+
+  <h2>2. Communications</h2>
+  <p>By using our Service, you agree to subscribe to newsletters, marketing or promotional materials, and other information we may send. You may opt out at any time.</p>
+
+  <h2>3. Purchases</h2>
+  <p>If you wish to purchase any product or service through the Service, you may need to supply certain relevant information. You represent and warrant that the information you supply is accurate and that you are authorized to use the provided payment method.</p>
+
+  <p>We may use third-party services to process payments. We reserve the right to refuse or cancel orders for various reasons, including fraud or unauthorized transactions.</p>
+
+  <h2>4. Contests, Sweepstakes, and Promotions</h2>
+  <p>Promotions through the Service may have rules that differ from these Terms. Please review applicable rules when participating.</p>
+
+  <h2>5. Subscriptions</h2>
+  <p>Some Service parts may be billed on a subscription basis. Subscriptions auto-renew unless canceled. You agree to provide valid billing information and authorize charges accordingly.</p>
+
+  <h2>6. Free Trial</h2>
+  <p>We may offer Free Trials. If billing info is entered, charges begin after the trial ends unless canceled.</p>
+
+  <h2>7. Fee Changes</h2>
+  <p>We may change subscription fees at the end of a billing cycle with prior notice so you can cancel if needed.</p>
+</div>
+
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-section about">
+      <h4>Eternal TV</h4>
+      <p>Le meilleur abonnement IPTV au Maroc et en France. Qualité 4K, stabilité garantie, prix imbattables.</p>
+    </div>
+
+    <div class="footer-section links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Subscriptions</a></li>
+        <li><a href="Channels.html" target="_blank">Channel List</a></li>
+        <li><a href="index.html">Reviews</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section legal">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="terms.html" target="_blank">Terms & Conditions</a></li>
+        <li><a href="privacy.html"target="_blank">Privacy Policy</a></li>
+        <li><a href="refund.html" target="_blank">Refund Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Eternal TV. All Rights Reserved.</p>
+    <p class="back-to-top" onclick="scrollToTop()">▲ Back to Top</p>
+  </div>
+</footer>
+
+
+
+
+
+<!-- Bootstrap JS Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Close navbar when clicking outside OR on a link
+  document.addEventListener('click', function(event) {
+    const navbar = document.getElementById('mainNavbar');
+    const toggler = document.querySelector('.navbar-toggler');
+
+    if (!navbar || !toggler) return;
+
+    if (navbar.classList.contains('show') &&
+        !navbar.contains(event.target) &&
+        !toggler.contains(event.target)) {
+      toggler.click();
+    }
+
+    if (event.target.classList.contains('nav-link') && navbar.classList.contains('show')) {
+      toggler.click();
+    }
+  });
+</script>
+
+</body>
+</html>
